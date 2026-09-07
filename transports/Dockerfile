@@ -30,6 +30,18 @@
   COPY transports/go.mod transports/go.sum ./
   RUN ls
   RUN cat go.mod
+
+  # Copy sibling modules needed by replace directives in go.mod
+  COPY core/ ../core/
+  COPY framework/ ../framework/
+  COPY plugins/compat/ ../plugins/compat/
+  COPY plugins/governance/ ../plugins/governance/
+  COPY plugins/logging/ ../plugins/logging/
+  COPY plugins/maxim/ ../plugins/maxim/
+  COPY plugins/otel/ ../plugins/otel/
+  COPY plugins/semanticcache/ ../plugins/semanticcache/
+  COPY plugins/telemetry/ ../plugins/telemetry/
+
   RUN go mod download
 
   # Copy source code and dependencies
