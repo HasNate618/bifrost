@@ -162,6 +162,7 @@ require (
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/onsi/gomega v1.38.2 // indirect
 	github.com/paulmach/orb v0.11.1 // indirect
+	github.com/philippgille/chromem-go v0.7.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pinecone-io/go-pinecone/v5 v5.3.0 // indirect
 	github.com/pion/datachannel v1.6.0 // indirect
@@ -242,3 +243,21 @@ require (
 )
 
 replace github.com/valyala/fasthttp => github.com/maximhq/fasthttp v1.73.1
+
+replace github.com/maximhq/bifrost/core => ../core
+
+replace github.com/maximhq/bifrost/framework => ../framework
+
+replace github.com/maximhq/bifrost/plugins/compat => ../plugins/compat
+
+replace github.com/maximhq/bifrost/plugins/governance => ../plugins/governance
+
+replace github.com/maximhq/bifrost/plugins/logging => ../plugins/logging
+
+replace github.com/maximhq/bifrost/plugins/maxim => ../plugins/maxim
+
+replace github.com/maximhq/bifrost/plugins/otel => ../plugins/otel
+
+replace github.com/maximhq/bifrost/plugins/semanticcache => ../plugins/semanticcache
+
+replace github.com/maximhq/bifrost/plugins/telemetry => ../plugins/telemetry
