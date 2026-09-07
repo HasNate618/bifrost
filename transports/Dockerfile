@@ -34,15 +34,10 @@
   # Copy sibling modules needed by replace directives in go.mod
   COPY core/ ../core/
   COPY framework/ ../framework/
-  COPY plugins/compat/ ../plugins/compat/
-  COPY plugins/governance/ ../plugins/governance/
-  COPY plugins/logging/ ../plugins/logging/
-  COPY plugins/maxim/ ../plugins/maxim/
-  COPY plugins/otel/ ../plugins/otel/
-  COPY plugins/semanticcache/ ../plugins/semanticcache/
-  COPY plugins/telemetry/ ../plugins/telemetry/
+  COPY plugins/ ../plugins/
 
-  RUN go mod download
+  # Run go mod tidy to apply local replaces (must come after all sources copied)
+  RUN go mod tidy
 
   # Copy source code and dependencies
   COPY transports/ ./

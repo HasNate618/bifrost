@@ -261,3 +261,5 @@ replace github.com/maximhq/bifrost/plugins/otel => ../plugins/otel
 replace github.com/maximhq/bifrost/plugins/semanticcache => ../plugins/semanticcache
 
 replace github.com/maximhq/bifrost/plugins/telemetry => ../plugins/telemetry
+
+replace github.com/maximhq/bifrost/plugins/routing => ../plugins/routing

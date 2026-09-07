@@ -178,3 +178,7 @@ require (
 )
 
 replace github.com/valyala/fasthttp => github.com/maximhq/fasthttp v1.73.1
+
+replace github.com/maximhq/bifrost/core => ../../core
+replace github.com/maximhq/bifrost/framework => ../../framework
+replace github.com/maximhq/bifrost/plugins/governance => ../governance

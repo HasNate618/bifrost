@@ -323,8 +323,6 @@ github.com/maximhq/bifrost/plugins/modelcatalogresolver v1.1.0 h1:QM7a/cztbSHlDy
 github.com/maximhq/bifrost/plugins/modelcatalogresolver v1.1.0/go.mod h1:L4QDT6b2abg49Xq2v9mUR/jZ1642Rx6wOoYOrxXiwNM=
 github.com/maximhq/bifrost/plugins/prompts v1.1.0 h1:a8I0/HeYp2tdnWvTAJvlxv1GsEjluyTrrNxAfcrxsig=
 github.com/maximhq/bifrost/plugins/prompts v1.1.0/go.mod h1:w7QuSUmxLWjHEVHTJ1hMrbXceoH+09zuHpQnqIQZPo0=
-github.com/maximhq/bifrost/plugins/routing v1.0.0 h1:d9egblO7ZzpGkPw86XOuJFUi9F9ZRS4rgROBjjgMedk=
-github.com/maximhq/bifrost/plugins/routing v1.0.0/go.mod h1:11IgrjOoflWXr8+Bcd31lsQTnxMrmG+8z98LCHVEfXI=
 github.com/maximhq/fasthttp v1.73.1 h1:nzm9mzZD1HEylzF41gk/4jW3jDGGRcOMaJmbX1OmQBg=
 github.com/maximhq/fasthttp v1.73.1/go.mod h1:KqkgZrjpWx1jdy99/J9SlOVjSp9H+uWJaVAHTNGAgeU=
 github.com/maximhq/maxim-go v0.2.1 h1:hCp8dQ4HsyyNC+y5HCUuY/HFD0sOnGkjL5MdYCHkgEQ=
